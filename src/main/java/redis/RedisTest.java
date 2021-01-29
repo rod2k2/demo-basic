@@ -10,13 +10,6 @@ public class RedisTest {
 
     public static void main(String[] args) {
         RedisTemplate r = new RedisTemplate();
-
-        //add one comment line
-
-        //add another comment line
-
-        //add one more line
-
-        //don't know what i should put here
+        System.out.println(r.toString());
     }
 }
