@@ -10,5 +10,8 @@ public class RedisTest {
 
     public static void main(String[] args) {
         RedisTemplate r = new RedisTemplate();
+        
+        //add one comment line
+
     }
 }
