@@ -11,8 +11,5 @@ public class RedisTest {
     public static void main(String[] args) {
         RedisTemplate r = new RedisTemplate();
         System.out.println(r.toString());
-
-        //new file
-
     }
 }
