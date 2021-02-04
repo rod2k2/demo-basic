@@ -10,14 +10,14 @@ public class CallableTest {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        FutureTask<String> t1 = new FutureTask(() -> {
+        FutureTask<String> t1 = new FutureTask<>(() -> {
             TimeUnit.SECONDS.sleep(2);
             System.out.println(Thread.currentThread().getName());
             return "abc";
         });
 
-        FutureTask<String> t2 = new FutureTask(() -> {
-            TimeUnit.SECONDS.sleep(3);
+        FutureTask<String> t2 = new FutureTask<>(() -> {
+            TimeUnit.SECONDS.sleep(10);
             System.out.println(Thread.currentThread().getName());
             return "efg";
         });
