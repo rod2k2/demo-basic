@@ -1,3 +1,7 @@
 .idea/
+.idea/*
 .settings/
+.settings/*
 target/
+basic.iml
+rod-basic.iml

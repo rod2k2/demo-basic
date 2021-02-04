@@ -1,9 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®¥ãÙÿÿÿÿÿ
-J
-java:S3740"/Provide the parametrized type for this generic.(Æø‹Œûÿÿÿÿ
-t
-java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ªÝõ¦øÿÿÿÿ
-N	java:S106*"9Replace this use of System.out or System.err by a logger.(³ æ¡
-V	java:S125"<This block of commented-out lines of code should be removed.(¹½„Âûÿÿÿÿ
-S	java:S106,"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
