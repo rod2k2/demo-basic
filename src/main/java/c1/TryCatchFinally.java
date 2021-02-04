@@ -1,17 +1,17 @@
 package c1;
 
-import java.time.LocalDateTime;
-import java.util.Date;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author Rod
  * @date 2020/7/3
  */
+@Slf4j
 public class TryCatchFinally {
 
     public static void main(String[] args) {
 
-        System.out.println(testMethod());
+        log.debug("method return value {}",testMethod());
         System.out.println(testMethod4Ref().toString());
 
     }

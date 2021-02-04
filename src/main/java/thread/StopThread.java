@@ -12,7 +12,7 @@ public class StopThread {
             while (!stopFlag) {
                 count++;
             }
-            System.out.printf("thread stop \n");
+            System.out.printf("thread stop after %d \n",count);
         });
         t.start();
 

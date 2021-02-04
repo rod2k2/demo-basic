@@ -23,7 +23,7 @@ public class CountDownLatchTest {
         //initialize countdown latch to 3 , after each thread completed it will decrease the number and main process will execute when countdownlatch is available
         final CountDownLatch cdl = new CountDownLatch(3);
         final AtomicInteger counter = new AtomicInteger();
-        List<Thread> list = new ArrayList();
+        List<Thread> list = new ArrayList<>();
         for(  int i=0;i<3;i++){
             list.add( new Thread(()->{
                 System.out.println("I'm thread ["+counter.addAndGet(1)+"] i am running");
