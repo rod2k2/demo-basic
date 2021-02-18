@@ -13,7 +13,6 @@ public class LearnHash {
     public static void main(String[] args) {
 
         User user = new User();
-        user.setName("Rod");
         user.setAge(18);
         user.setId(1);
         System.out.println(user.hashCode());
