@@ -1,17 +1,15 @@
 package c1;
 
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author Rod
  * @date 2020/7/3
  */
-@Slf4j
 public class TryCatchFinally {
 
     public static void main(String[] args) {
 
-        log.debug("method return value {}",testMethod());
+        System.out.println(testMethod());
         System.out.println(testMethod4Ref().toString());
 
     }
@@ -20,10 +18,10 @@ public class TryCatchFinally {
         int x = 0;
         try {
             x = 2;
-            return x;
         } finally {
             x = 3;
         }
+        return x;
     }
 
     public static UserPojo  testMethod4Ref(){

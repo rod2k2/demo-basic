@@ -1,5 +1,6 @@
 package chain.domain;
 
+
 import lombok.Data;
 
 @Data
