@@ -2,7 +2,7 @@ package problem.threesum;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;

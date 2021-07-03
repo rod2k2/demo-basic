@@ -1,7 +1,10 @@
 .idea/
 .idea/*
+mvn/
+mvn/*
 .settings/
 .settings/*
 target/
+target/*
 basic.iml
 rod-basic.iml
