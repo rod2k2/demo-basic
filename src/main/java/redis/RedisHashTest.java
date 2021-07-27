@@ -19,7 +19,8 @@ import java.util.Map;
 
 public class RedisHashTest {
 
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args) throws Exception
+            {
         Jedis jedis = new Jedis("localhost", 6379);
 
         Student s1 = Student.builder().id(1).name("Zhang San").score(90.00f).registerDate(LocalDate.parse("2012-09-01")).build();
